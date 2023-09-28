@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="https://kit.fontawesome.com/255b683c12.js" crossorigin="anonymous"></script>
+    
+    <title>Anasayfa</title>
+</head>
+<body>
+    <div class="colors">
+        <button class="color-btn" onclick="changeBackgroundColor('#000b1a')" style="background-color: #000b1a;"></button>
+<button class="color-btn" onclick="changeBackgroundColor('#1a1800')" style="background-color: #1a1800;"></button>
+
+
+    </div>
+
+    <div id="title">
+        <h1 id="title">JUST DO IT </h1>
+
+    </div>
+
+<div id="form">
+
+    <div id="create-task-area">
+
+        <input class="todo-create-input" type="text" placeholder="Add a task." name="task">
+       <button class="add-todoBtn" onclick="addTodo(event)">I Got This!</button> 
+
+    </div>
+    <div id="update-task-area">
+        <input class="todo-update-input" type="text" placeholder="Update a task." name="update">
+        <button class="update-todoBtn">Update</button>
+        <button class="cancel-todoBtn" onclick="cancelUpdate()">Cancel</button> 
+
+    </div>
+
+
+    <p> <span id="date">14.07.2023</span></p>
+
+
+    <div class="todo-areas">
+
+<ul id="todo-ul">
+
+
+
+
+</ul>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+</div><!--form-->
+  
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js" integrity="sha512-aoTNnqZcT8B4AmeCFmiSnDlc4Nj/KPaZyB5G7JnOnUEkdNpCZs1LCankiYi01sLTyWy+m2P+W4XM+BuQ3Q4/Dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="/script.js"></script>
+</body>
+</html>
